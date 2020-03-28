@@ -1,0 +1,11 @@
+.comment__image{
+    margin-top:0;
+    margin-left:0;
+    margin-bottom:42px;
+    border-radius: 50%;
+}
+
+.comment__image:hover {  
+    transition: .2s;     
+    opacity: .5;
+}

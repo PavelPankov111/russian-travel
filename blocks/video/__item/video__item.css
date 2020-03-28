@@ -1,0 +1,34 @@
+.video__item{
+    min-width: 583px;
+    max-height: 323px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+@media screen and (max-width : 1024px){
+    .video__item{
+        min-width:456px;
+    }
+}
+
+@media screen and (max-width : 768px){
+    .video__item{
+        min-width:352px;
+    }
+}
+
+@media screen and (max-width : 375px){
+    .video__item{
+        min-width:343px;
+        min-height: 200px;
+    }
+}
+
+@media screen and (max-width : 320px){
+    .video__item{
+        min-width:288px;
+        max-height: 192px;
+    }
+}

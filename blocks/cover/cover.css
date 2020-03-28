@@ -1,0 +1,32 @@
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__title/cover__title.css);
+@import url(./cover-bg/cover-bg.css);
+
+.cover{
+    max-width:1184px;
+    display: flex;
+    flex-direction: column;
+    margin: 102px auto 160px;
+}
+
+@media screen and (max-width : 768px){
+    .cover{
+        max-width: 768px;
+        min-height:500px;
+    }
+}
+
+@media screen and (max-width : 375px){
+    .cover{
+        max-width: 375px;
+        min-height:272px;
+        margin: 48px auto 64px;
+    }
+}
+
+@media screen and (max-width : 320px){
+    .cover{
+        max-width: 320px;
+        min-height:216px;
+    }
+}
