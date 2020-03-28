@@ -13,6 +13,13 @@
 @media screen and (max-width : 1024px){
     .cover__title{
         max-width:500px;
+        margin: 211px auto 43px;
+    }
+}
+
+@media screen and (max-width : 768px){
+    .cover__title{
+        max-width:550px;
         margin: 165px auto 43px;
     }
 }

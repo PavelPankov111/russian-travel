@@ -12,7 +12,7 @@
 @media screen and (max-width : 1024px){
     .cover-bg{
         max-width:1024px;
-        max-height:562px;
+        min-height:562px;
     }
 }
 
