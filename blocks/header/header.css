@@ -4,7 +4,6 @@
 
 .header{
     max-width:1184px;
-    max-height:52px;
     margin:auto;
     display: flex;
     justify-content: space-between;
@@ -29,7 +28,6 @@
     .header{
         max-width: 343px;
         padding-top: 16px;
-        max-height:42px;
     }
 }
 

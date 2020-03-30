@@ -1,10 +1,10 @@
 .video__item{
     min-width: 583px;
-    max-height: 323px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     position: relative;
+    text-decoration: none;
 }
 
 @media screen and (max-width : 1024px){
@@ -29,6 +29,5 @@
 @media screen and (max-width : 320px){
     .video__item{
         min-width:288px;
-        max-height: 192px;
     }
 }
