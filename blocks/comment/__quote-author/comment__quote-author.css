@@ -1,5 +1,5 @@
 @media screen and (max-width : 768px){
-    .comment_quote_author{
+    .comment__quote-author{
         display:flex;
         flex-direction: column-reverse;
     }

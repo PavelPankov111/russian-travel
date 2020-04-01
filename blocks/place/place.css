@@ -4,8 +4,8 @@
 @import url(./__title/place__title.css);
 @import url(./__url/place__url.css);
 @import url(./__url-heading/place__url-heading.css);
-@import url(./_image_paragraph/place_image_paragraph.css);
-@import url(./_title_website/place_title_website.css);
+@import url(./__image-paragraph/place__image-paragraph.css);
+@import url(./__title-website/place__title-website.css);
 @import url(./__website/place__website.css);
 
 .place:nth-last-of-type(1){

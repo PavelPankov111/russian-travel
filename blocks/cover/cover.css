@@ -1,12 +1,13 @@
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__title/cover__title.css);
-@import url(../cover-bg/cover-bg.css);
+@import url(./__image/cover__image.css);
 
 .cover{
     max-width:1184px;
     display: flex;
     flex-direction: column;
     margin: 102px auto 160px;
+    text-decoration: none;
 }
 
 @media screen and (max-width : 768px){

@@ -1,7 +1,7 @@
 @import url(./__author/comment__author.css);
 @import url(./__image/comment__image.css);
 @import url(./__quote/comment__quote.css);
-@import url(./_quote_author/comment_quote_author.css);
+@import url(./__quote-author/comment__quote-author.css);
 
 .comment{
     max-width: 382px;
