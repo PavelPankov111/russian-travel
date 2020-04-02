@@ -7,6 +7,12 @@
     text-decoration: none;
 }
 
+.video__item:hover{
+    transition: .2s;     
+    opacity: .5;
+}
+
+
 @media screen and (max-width : 1024px){
     .video__item{
         min-width:456px;

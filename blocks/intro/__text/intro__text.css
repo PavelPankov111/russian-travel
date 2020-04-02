@@ -6,6 +6,7 @@
     font-size: 13px;
     line-height: 20px;
     color:white;
+    margin-top: 24px;
 }
 
 
@@ -13,5 +14,6 @@
     .intro__text{
         font-size: 12px;
         line-height: 19px;
+        margin-top:0 ;
     }
 }

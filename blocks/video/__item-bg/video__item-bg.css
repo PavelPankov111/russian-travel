@@ -6,11 +6,6 @@
     top: 0;
 } 
 
-.video__item-bg:hover {  
-    transition: .2s;     
-    opacity: .5;
-}
-
 @media screen and (max-width : 1024px){
     .video__item-bg{
         max-width:456px;

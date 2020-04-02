@@ -3,13 +3,12 @@
     font-size: 14px;
     line-height: 24px;  
     color:white;
-    margin:48px auto 24px;
     max-width: 684px;
 }
 
 @media screen and (max-width : 768px){
     .intro__content-row{
-        max-width: 650px;
+        max-width: 720px;
         margin: 0;
     }
 }

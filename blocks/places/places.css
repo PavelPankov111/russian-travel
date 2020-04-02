@@ -11,16 +11,23 @@
     }
 }
 
+@media screen and (max-width : 768px){
+    .places{
+    margin: auto auto 102px;
+    max-width: 720px;
+    }
+}
+
 @media screen and (max-width : 375px){
     .places{
-        min-width: 375px;
+        max-width: 375px;
         margin: auto auto 64px;
     }
 }
 
 @media screen and (max-width : 320px){
     .places{
-        min-width: 320px;
+        max-width: 320px;
         margin: auto;
     }
 }

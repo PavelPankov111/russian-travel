@@ -10,6 +10,11 @@
     text-decoration: none;
 }
 
+.cover:hover {      
+    opacity: .5;
+    transition: .2;
+}
+
 @media screen and (max-width : 768px){
     .cover{
         max-width: 768px;
