@@ -2,11 +2,10 @@
 @import url(./__duration/video__duration.css);
 @import url(./__icon-play/video__icon-play.css);
 @import url(./__item/video__item.css);
-@import url(./__item-bg/video__item-bg.css);
 @import url(./__subtitle/video__subtitle.css);
 @import url(./__title/video__title.css);
-@import url(../content__subtitle/content__subtitle.css);
-@import url(../content__title/content__title.css);
+@import url(../video-subtitle/video-subtitle.css);
+@import url(../video-title/video-title.css);
 
 .video{
     display: flex;

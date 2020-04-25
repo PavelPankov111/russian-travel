@@ -4,4 +4,12 @@
     letter-spacing: 0.2em;
     color: #AAAAAA;
     margin-top:0;
+    margin-bottom: 16px;
+}
+
+@media screen and (max-width : 768px){
+    .place__url-heading{
+        font-size: 1.56vw;
+        margin-bottom:2.08vw;
+    }
 }

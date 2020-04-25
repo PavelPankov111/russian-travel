@@ -5,23 +5,38 @@
     color:white;
     margin-top:0;
     margin-left:0;
-    margin-right: 40px;
+    margin-bottom: 0;
 }
+
+@media screen and (max-width : 1024px){
+    .place__title{
+        font-size: 7.03vw;
+        line-height: 6.35vw;
+    }
+    }
 
 @media screen and (max-width : 768px){
     .place__title{
         font-size: 42px;
         line-height: 46px;
-        margin-right: 28px;
+        max-width: min-content;
+        margin-bottom: 0;
     }
+}
+
+@media screen and (max-width : 700px){
+    .place__title{
+         font-size: 32px;
+        line-height: 35px;
+    }
+   
 }
 
 @media screen and (max-width : 375px){
     .place__title{
         font-size: 32px;
         line-height: 35px;
-        max-width: 343px;
-        margin-left: 16px;
-        margin-bottom: 32px;
+        max-width: max-content;
+        
     }
 }

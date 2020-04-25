@@ -1,39 +1,39 @@
 .lead__image{
-    max-width:984px;
+    max-width: 984px;
     max-height: 554.13px;
     margin-top: 78px;
 }
 
 .lead__image:hover {  
-    transition: .2s;     
-    opacity: .5;
+    transition: .5s;     
+    opacity: .8;
 }
 
 
 @media screen and (max-width: 1024px){
     .lead__image{
-        max-width: 928px;
+        max-width: 90.63vw;
     }
 }
 
 @media screen and (max-width: 768px){
     .lead__image{
-        max-width:768px;
-        min-height:420px;
+        max-width:100vw;
+        min-height:54.69vw;
     }
 }
 
 @media screen and (max-width: 375px){
     .lead__image{
-        max-width: 375px;
-        min-height: 211px;
+        max-width: 100vw;
+        min-height: 56.27vw;
         margin-top: 31px;
     }
 }
 
 @media screen and (max-width : 320px){
     .lead__image{
-        max-width: 320px;
-        min-height: 211px;
+        max-width: 100vw;
+        min-height: 65.94vw;
     }
 }

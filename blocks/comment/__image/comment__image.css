@@ -6,6 +6,13 @@
 }
 
 .comment__image:hover {  
-    transition: .2s;     
-    opacity: .5;
+    transition: .5s;     
+    opacity: .8;
 }
+
+@media screen and (max-width : 768px){
+    .comment__image{
+        margin-bottom:16px;
+    }
+}
+

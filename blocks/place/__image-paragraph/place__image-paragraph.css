@@ -1,11 +1,26 @@
 .place__image-paragraph{
     display:flex;
     justify-content: space-between;
+    margin-top: 60px;
+}
+
+@media screen and (max-width : 768px){
+    .place__image-paragraph{
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width : 700px){
+    .place__image-paragraph{
+        display: block;
+        margin-top: 30px;
+    }
 }
 
 @media screen and (max-width : 375px){
     .place__image-paragraph{
         display: flex;
         flex-direction: column;
+        margin-top:32px ;
     }
 }

@@ -1,4 +1,4 @@
-.content__subtitle{
+.video-subtitle{
     color:white;
     font-size: 24px;
     line-height: 35px;
@@ -8,24 +8,30 @@
     font-weight: normal;
 }
 
+@media screen and (max-width : 1280px){
+    .video-subtitle{
+        max-width:50vw;
+    }
+}
+
 @media screen and (max-width : 768px){
-    .content__subtitle{
+    .video-subtitle{
         margin: 24px auto 56px;
-        max-width: 560px;
+        max-width: 90%;
     }
 }
 
 @media screen and (max-width : 375px){
-    .content__subtitle{
+    .video-subtitle{
         font-size: 16px;
         line-height: 23px;
-        max-width: 343px;
+        max-width: 91.47vw;
         margin: 16px auto 24px;
     }
 }
 
 @media screen and (max-width : 320px){
-    .content__subtitle{
-        max-width: 288px;
+    .video-subtitle{
+        max-width:90vw;
     }
 }

@@ -28,3 +28,4 @@
      }
 ```
 ### Сайт является кроссбраузерным и работает во всех известных браузерах(Safari,Яндекс Браузер,Google Chrome,Firefox)
+### Github Pages: https://pages.github.com/

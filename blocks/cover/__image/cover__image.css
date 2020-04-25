@@ -1,10 +1,30 @@
 .cover__image{
+    margin: auto;
+    background:
+    url(../../../images/Image3.png) 100% 100%;
+    max-width: 1184px;
+    min-height: 594px;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    background-size: cover;
+    position: relative;
+}
+
+.cover__image:before{
+    content: '';
     position: absolute;
-    left: auto;
-    top: auto;
-    max-width:1184px;
-    max-height:594px;
-    opacity: .7;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(42, 44, 47, 0.3);
+    transition: all 0.5s linear;
+}
+
+.cover__image:hover:before{
+background: rgba(42, 44, 47, 0.8);;  
 }
 
 @media screen and (max-width : 1024px){
@@ -32,5 +52,6 @@
     .cover__image{
         max-width: 320px;
         min-height:230px;
+        margin: 64px auto 64px;
     }
 }

@@ -18,14 +18,22 @@
 
 @media screen and (max-width : 768px){
     .video__duration{
-        margin-top: 36px;
+        margin-top: auto;
         margin-bottom:8px;
         margin-left:24px;
     }
 }
 
 @media screen and (max-width : 375px){
-    .video__duration:last-of-type{
-        margin-top: 17px;
+    .video__duration{
+        margin-top: auto;
     }
 }
+
+@media screen and (max-width : 320px){
+    .video__duration{
+        margin-top: auto;
+        margin-left: 16px;
+    }
+}
+
