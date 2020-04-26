@@ -28,4 +28,4 @@
      }
 ```
 ### Сайт является кроссбраузерным и работает во всех известных браузерах(Safari,Яндекс Браузер,Google Chrome,Firefox)
-### Github Pages: https://github.com/PavelPankov111/russian-travel.git
+### Github Pages:  https://pavelpankov111.github.io/russian-travel
